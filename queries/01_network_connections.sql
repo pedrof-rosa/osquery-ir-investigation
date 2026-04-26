@@ -3,7 +3,6 @@
 -- ATT&CK: T1095 - Non-Application Layer Protocol
 --
 -- RESULT (lab): pythonw.exe (PID 8492) confirmed active connection to IP
--- Screenshot: ../screenshots/01_network_connections.png
 
 SELECT 
     lp.pid,
